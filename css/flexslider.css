@@ -48,7 +48,6 @@ html[xmlns] .slides {display: block;}
 
 .carousel li {margin-right: 5px}
 
-
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
 .flex-direction-nav a {
@@ -181,6 +180,7 @@ html[xmlns] .slides {display: block;}
 	}
 }
 @media screen and (max-width: 480px) {
+
 	section.slider {
 		padding-top: 0%;
 	}
@@ -190,6 +190,10 @@ html[xmlns] .slides {display: block;}
 	.flex-control-nav {
 		right: 42%;
 		bottom: -15%;
+	}
+
+	.slider .flexslider .flex-control-nav{
+		position: static;
 	}
 }
 @media screen and (max-width: 414px) {
